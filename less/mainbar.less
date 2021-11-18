@@ -1,0 +1,47 @@
+//TOOLS
+.il-mainbar-tools-button {
+    .btn-bulky {
+        background-color: @skygreen;
+        &.engaged {
+            background-color: lighten(@skygreen, 40%);
+        }
+    }
+}
+.il-mainbar-tools-entries-bg {
+    background-color: lighten(@skygreen, 40%);
+}
+.il-maincontrols-slate #il-tag-slate-container .btn-bulky .bulky-label,
+.il-maincontrols-slate #ilHelpPanel .btn-bulky .bulky-label {
+    margin-top: 1px;
+}
+.il-mainbar-tools-entries .btn-bulky,
+.il-mainbar-tools-entries .btn-bulky,
+.il-mainbar-tools-entries .il-link.link-bulky {
+    background-color: lighten(@skygreen, 40%);
+}
+
+//ONLINE HELP
+#ilHelpPanel {
+    #il_help_search_form {
+        padding: 5px;
+        margin-top: 5px;
+    }
+    .ilSideBarContent {
+        padding: 5px 0px !important;
+    }
+    .il_VAccordionInnerContainer {
+        margin-bottom: 2px;
+    }
+    .il_VAccordionHead {
+        line-height: 1.7rem;
+        font-size: 1.5rem;
+        font-weight: inherit;
+        color: @il-text-color;
+        background-color: @il-slate-bulky-bg-color;
+        padding: 15px 10px 15px 30px;
+        background-position: 3px center;
+        &.il_HAccordionHeadActive {
+            background-color: @il-highlight-bg;
+        }
+    }
+}
