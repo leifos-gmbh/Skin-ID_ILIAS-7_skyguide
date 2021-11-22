@@ -19266,3 +19266,51 @@ with the il- variable set here.
 /** nagtive or positive contrast color for text and glyph **/
 /** contrast threshold for contrast color **/
 /** three color variants for neutral, important, breaking Head Infos **/
+.header-inner {
+  background: #dcc87d;
+}
+.header-inner .il-logo img {
+  width: 150px;
+  margin-left: -5px;
+}
+.header-inner .il-logo .il-pagetitle {
+  color: white;
+  padding-left: 15px;
+}
+.header-inner .il-maincontrols-metabar .glyphicon {
+  filter: invert(0%);
+}
+.header-inner .il-maincontrols-metabar .btn-bulky .glyphicon {
+  color: white;
+}
+.header-inner .il-maincontrols-metabar .btn-bulky.engaged .glyphicon {
+  color: #dcc87d;
+}
+/**
+This file contains all less Variables set by ILIAS. Please do not overwrite bootstrap standard variables here.
+Set an ILIAS variable here with an il- prefix and overwrite the bootstrap variable in the bootstrap variables file
+with the il- variable set here.
+ */
+/** headline text transform **/
+/** inline shadow of a message container **/
+/** border configuration, the color is automatically computed from the three color variants **/
+/** nagtive or positive contrast color for text and glyph **/
+/** contrast threshold for contrast color **/
+/** three color variants for neutral, important, breaking Head Infos **/
+.header-inner {
+  border: 4px solid #b22552;
+}
+.header-inner .il-maincontrols-metabar .btn-bulky {
+  height: 52px;
+}
+/**
+This file contains all less Variables set by ILIAS. Please do not overwrite bootstrap standard variables here.
+Set an ILIAS variable here with an il- prefix and overwrite the bootstrap variable in the bootstrap variables file
+with the il- variable set here.
+ */
+/** headline text transform **/
+/** inline shadow of a message container **/
+/** border configuration, the color is automatically computed from the three color variants **/
+/** nagtive or positive contrast color for text and glyph **/
+/** contrast threshold for contrast color **/
+/** three color variants for neutral, important, breaking Head Infos **/
