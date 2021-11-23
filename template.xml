@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<template xmlns="http://www.w3.org" version="0.54" name="Skin_ILIAS-7_skyguide">
+<template xmlns="http://www.w3.org" version="0.59" name="Skin_ILIAS-7_skyguide">
   <style id="Style-ID_ILIAS-7_skyguide" name="Style_ILIAS-7_skyguide" image_directory="images" css_file="Style-ID_ILIAS-7_skyguide" sound_directory="sound" font_directory="fonts"/>
   <style id="Style-ID_ILIAS-7_skyguideTEST" name="Style_ILIAS-7_skyguideTEST" image_directory="images" css_file="Style-ID_ILIAS-7_skyguideTEST" sound_directory="sound" font_directory="fonts"/>
   <style id="Style-ID_ILIAS-7_stcdoc" name="Style-ID_ILIAS-7_stcdoc" image_directory="images" css_file="Style-ID_ILIAS-7_stcdoc" sound_directory="sound" font_directory="fonts"/>

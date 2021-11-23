@@ -19079,6 +19079,11 @@ footer {
 .breadcrumb_wrapper .breadcrumb {
   padding-left: 10px;
 }
+.ilStartupSection {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
 .il_info.il-multi-line-cap-3 {
   white-space: break-spaces;
 }
