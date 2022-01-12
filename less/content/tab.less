@@ -1,49 +1,39 @@
-#ilTab {
-    background-color: @skybluedark;
-    border-bottom: none;
-    a {
-        color: white;
+.nav-tabs > li > a {
+    color: @skyblue;
+    font-size: 100%;
+    &:hover {
+        border-color: white;
+        background-color: @il-main-bg;
+        color: @il-text-color;
     }
 }
-.nav-tabs > li {
-    margin: 0px;
-    > a {
-        padding: 10px 12px 8px;
+.nav-tabs > li.active > a {
+    background-color: @skyblue;
+    color: white;
+    border: 0;
+    &:hover,
+    &:focus {
+      background-color: @skyblue;
+      color: white;
+      border: 0;
     }
-    > a:hover {
-        background-color: @il-highlight-bg;
-        color: @skybluedark;
+}
+.nav > li > a {
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        color: @il-text-color;
+        background-color: transparent;
     }
 }
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-    background-color: @il-highlight-bg;
-    color: @skybluedark !important;
-}
-.nav > li > a:hover,
-.nav > li > a:focus {
-    background-color: @il-highlight-bg;
-    color: @skybluedark !important;
-}
+
+//SUBTABS
 #ilSubTab {
-    background-color: @il-highlight-bg;
-    margin: -23px 15px 30px;
-    padding: 5px 5px;
-    font-size: 12px;
-    a {
-        color: @skybluedark;
+    background-color: @skybluelight;
+    margin: -23px 15px 10px;
+    padding: 5px 0;
+    > li > a {
+        font-size: 90%;
+        color: @skyblue;
     }
-    > li > a:hover {
-        color: @skybluedark;
-        text-decoration: underline;
-    }
-    > li.active > a,
-    > li.active > a:hover,
-    > li.active > a:focus {
-        color: @skybluedark;
-    }
-}
-#ilTabDropDown a {
-    color: @skybluedark;
 }
