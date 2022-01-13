@@ -19277,6 +19277,18 @@ footer {
 .input-group-btn {
   font-size: 100%;
 }
+.panel .panel-heading.ilHeader .dropdown > button.dropdown-toggle,
+.panel .panel-heading.ilBlockHeader .dropdown > button.dropdown-toggle {
+  color: #2850a0;
+}
+.panel .panel-heading.ilHeader .dropdown > button.dropdown-toggle:hover,
+.panel .panel-heading.ilBlockHeader .dropdown > button.dropdown-toggle:hover,
+.panel .panel-heading.ilHeader .dropdown > button.dropdown-toggle:active,
+.panel .panel-heading.ilBlockHeader .dropdown > button.dropdown-toggle:active,
+.panel .panel-heading.ilHeader .dropdown > button.dropdown-toggle:focus,
+.panel .panel-heading.ilBlockHeader .dropdown > button.dropdown-toggle:focus {
+  color: white;
+}
 .il_info.il-multi-line-cap-3 {
   white-space: break-spaces;
 }

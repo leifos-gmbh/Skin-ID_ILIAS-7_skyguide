@@ -21,3 +21,18 @@
 .input-group-btn {
     font-size: 100%;
 }
+.panel {
+    .panel-heading {
+        &.ilHeader,
+        &.ilBlockHeader {
+            .dropdown > button.dropdown-toggle {
+                color: @skyblue;
+                &:hover,
+                &:active,
+                &:focus {
+                    color: white;
+                }
+            }
+        }
+    }
+}
